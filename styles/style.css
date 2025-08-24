@@ -1,0 +1,33 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.icon-name {
+    width: 20px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #3f4346;
+    cursor: default;
+    font-weight: 600;
+}
