@@ -70,6 +70,26 @@
         transform: scale();
     }
     
+    .card {
+        border: 0.5px solid #d2d2d2;
+        width: 250px;
+        height: 300px;
+        border-radius: 9.6px;
+    }
+    
+    .head {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #262729;
+        background-color: #f8f8f8;
+    }
+    
+    .cards {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 8em;
+    }
+    
     .icon-name {
         width: 20px;
         height: 15px;
