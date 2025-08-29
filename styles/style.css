@@ -75,13 +75,31 @@
         width: 250px;
         height: 300px;
         border-radius: 9.6px;
+        transition: transform 0.4s ease, box-shadow 0.3s ease;
+    }
+    
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     }
     
     .head {
         text-align: center;
         font-size: 1.5rem;
         color: #262729;
-        background-color: #f8f8f8;
+        background-color: #918e8e;
+        background-size: cover;
+    }
+    
+    .sp {
+        text-align: center;
+    }
+    
+    .price {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        text-align: inherit;
     }
     
     .cards {
