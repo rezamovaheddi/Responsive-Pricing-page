@@ -7,6 +7,33 @@
         src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
     }
     
+    ul {
+        margin-top: 25px;
+    }
+    
+    #mab {
+        text-align: center;
+    }
+    
+    strong {
+        text-align: center;
+        font-weight: bold;
+        color: #212529;
+        font-size: 35px;
+    }
+    
+    span {
+        font-size: 35px;
+        color: #595c5f;
+    }
+    
+    li {
+        list-style: none;
+        font-size: 17px;
+        text-align: start;
+        font-weight: 100;
+    }
+    
     a {
         text-decoration: none;
         color: #3f4246;
@@ -72,7 +99,9 @@
     
     .card {
         border: 0.5px solid #d2d2d2;
+        background-image: repeating-linear-gradient(45deg, #f0f8ff, f0f8ff 10px, #e0f7fa 10px, #e0e0e0 20px);
         width: 250px;
+        overflow: hidden;
         height: 300px;
         border-radius: 9.6px;
         transition: transform 0.4s ease, box-shadow 0.3s ease;
@@ -86,9 +115,9 @@
     .head {
         text-align: center;
         font-size: 1.5rem;
-        color: #262729;
-        background-color: #918e8e;
-        background-size: cover;
+        color: #333;
+        background: transparent;
+        border-bottom: 0.5px solid #d2d2d2;
     }
     
     .sp {
