@@ -1,5 +1,5 @@
-const hambergur = document.getElementById('hamburger')
-const menu = document.getElementById('menu')
+const hambergur = document.querySelector('.hamburger')
+const menu = document.querySelector('.menu')
 
 hambergur.addEventListener('click', ()=>{
     menu.classList.toggle('active')
